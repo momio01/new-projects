@@ -279,3 +279,53 @@ p {
 
     font-size: 23px;
 }
+
+.about {
+
+    width: 100%;
+    padding: 50px 0px;
+
+}
+
+.about img {
+
+    height: auto;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+
+    width: 1300px;
+    max-width: 100%;
+    margin: 70px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.link-button {
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 5px;
+}
