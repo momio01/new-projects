@@ -5,10 +5,17 @@
 
 }
 
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 a {
     text-decoration: none;
-
 }
+
+
+
+
 
 header {
 
@@ -275,7 +282,7 @@ p {
     font-size: 40px;
 }
 
-.family3 {
+.family3 p {
 
     font-size: 23px;
 }
@@ -328,4 +335,72 @@ p {
     font-weight: 700;
     font-size: 30px;
     border-radius: 5px;
+}
+
+.title2 h1 {
+
+
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title2 p {
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+
+.btn {
+
+    padding: 100px;
+    margin: 0px 70px;
+    background: #f0d8cf;
+    border-radius: 1px;
+    margin-bottom: 150px;
+
+}
+
+.btn input {
+
+    margin-left: 200px;
+    padding: 15px 70px;
+
+}
+
+.btn button {
+    margin-right: 100px;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+
+    color: rgb(230, 57, 57);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+footer p {
+
+    color: white;
+
+    font-size: 20px;
+
 }
